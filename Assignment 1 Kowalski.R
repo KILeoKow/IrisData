@@ -52,3 +52,5 @@ ggplot(average_petal_length, aes(x = Species, y = Average_Petal_Length, fill = S
   theme(plot.title = element_text(hjust = 0.5), 
         axis.title.x = element_text(hjust = 0.5), 
         axis.title.y = element_text(hjust = 0.5))  
+
+renv::snapshot()
